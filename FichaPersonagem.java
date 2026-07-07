@@ -1,4 +1,4 @@
-public class FichaPersonagem {
+public abstract class FichaPersonagem {
   String nome;
   String classe;
   int nivel;
