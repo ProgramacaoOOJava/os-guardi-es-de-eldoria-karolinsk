@@ -12,7 +12,7 @@ public abstract class FichaPersonagem {
     this.pontosDeVida = pontosDeVida;
     this.poderBase = poderBase;
   }
-
+  public abstract void usarHabilidadeEspecial();
   public void exibirStatus() {
     System.out.println("--- Status do Personagem ---" + "\n" + "Nome: " + nome + "\n" + "Classe: " + classe + "\n"
         + "Nível: " + nivel + "\n" +
