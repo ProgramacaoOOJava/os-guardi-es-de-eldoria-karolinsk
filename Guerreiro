@@ -1,0 +1,11 @@
+public class Guerreiro extends FichaPersogem(){
+
+  public Guerreiro(String nome, int nivel, int pontosDeVida, double poderBase){
+    super(nome,"Guerreiro", nivel, pontosDeVida, poderBase);
+}
+
+@Override
+public void usarHabilidadeEspecial(){
+  System.out.println("Guerreiro " + nome + "ataca com Espada Flamejante!");
+  }
+}
